@@ -94,9 +94,19 @@ a {
 
     object {
         width: 300px;
-        height: 350px;
+        height: 390px;
     }
-}@media only screen and (min-width: 361px) and (max-width: 479px) {
+
+    .site {
+        margin-top: 0.5rem;
+    }
+
+    header {
+        height: 55px;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 479px) {
     .container {
         justify-content: center;
         /* background-color: lightsalmon; */
@@ -104,7 +114,15 @@ a {
 
     object {
         width: 350px;
-        height: 350px;
+        height: 420px;
+    }
+
+    .site {
+        margin-top: 0.5rem;
+    }
+
+    header {
+        height: 55px;
     }
 }
 
@@ -118,6 +136,14 @@ a {
         width: 400px;
         height: 500px;
 
+    }
+
+    .site {
+        margin-top: 0.5rem;
+    }
+
+    header {
+        height: 55px;
     }
 }
 
@@ -133,5 +159,3 @@ a {
 
     }
 }
-
-/* @media only screen and (min-width: 992px){ ... } */
