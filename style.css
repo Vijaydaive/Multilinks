@@ -37,7 +37,7 @@
 
 
 .site {
-   
+   background-color: lightsalmon;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 10px 10px;
@@ -45,8 +45,8 @@
     
     }
     object{
-        width: 500px;
-        height: 400px;
+        width: 400px;
+        height: 500px;
 
     }
 
@@ -86,10 +86,10 @@ a {
   
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 
     .container {
-        /* Apply some styles */
+        /* Apply some styles 
         justify-content: center;
         background-color: lightskyblue;
     }
@@ -104,7 +104,48 @@ a {
 @media (max-width: 991.98px) {
 
     .container {
-        /* Apply some styles */
+        /* Apply some styles 
         justify-content: center;
     }
+} */
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 700px){
+.container{
+        /* Apply some styles */
+        /* justify-content: center; */
+
+    /* }
+    object{
+        width: 320px;
+        height: 420px;
+    }
+} */ 
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .container{
+       justify-content: center;
+
+    }
+    object{
+        width: 300px;
+        height: 350px;
+    }
+} 
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+
+object{
+    width: 400px;
+    height: 500px;
+
 }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    object{
+        width: 700px;
+        height: 500px;
+    
+    }
+ }
+
+/* @media only screen and (min-width: 992px){ ... } */
